@@ -233,7 +233,7 @@ function showResult(){
   h+='<div class="divider"></div>';
   h+='<div class="cta-box">';
   h+='<p class="cta-label">Start your 7-day free trial</p>';
-  h+='<a class="cta-btn" href="https://www.skool.com/marthyn/about" onclick="fbq(\'trackCustom\', \'EngagedLead\');"><strong>TEST IT FOR FREE</strong> →</a>';
+  h+='<a class="cta-btn" href="https://www.skool.com/marthyn/about" onclick="fbq(\'trackCustom\', \'EngagedLead\', {value: 2.00, currency: \'EUR\'});"><strong>TEST IT FOR FREE</strong> →</a>';
   h+='</div>';
   var r=document.getElementById('result');
   r.innerHTML=h;
