@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta Pixel Code -->
+<script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1406495980373118');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1406495980373118&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Double Bass Breakthrough Test — Marthyn's Drum Camp</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#fff;color:#1a1a1a;padding:24px 16px;min-height:100vh}
+  .wrap{max-width:560px;margin:0 auto}
+  .badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;background:#f5f5f5;color:#888;border:1px solid #e5e5e5;border-radius:6px;padding:4px 10px;margin-bottom:14px}
+  h1{font-size:24px;font-weight:700;color:#1a1a1a;margin:0 0 8px;line-height:1.3}
+  .sub{font-size:15px;color:#666;margin:0 0 24px;line-height:1.6}
+  .progress{display:flex;gap:6px;margin-bottom:28px}
+  .step{height:4px;flex:1;background:#e5e5e5;border-radius:2px;transition:background .3s}
+  .step.active{background:#1a1a1a}
+  .step.done{background:#888}
+  .q{display:none}
+  .q.visible{display:block}
+  .qlabel{font-size:12px;font-weight:600;color:#888;margin-bottom:8px;letter-spacing:.05em;text-transform:uppercase}
+  .qtext{font-size:19px;font-weight:600;color:#1a1a1a;margin:0 0 18px;line-height:1.4}
+  .opts{display:flex;flex-direction:column;gap:10px}
+  .opt{display:flex;align-items:center;gap:14px;padding:14px 16px;border:1.5px solid #e5e5e5;border-radius:12px;cursor:pointer;background:#fff;transition:border-color .15s,background .15s}
+  .opt:hover{border-color:#1a1a1a;background:#fafafa}
+  .opt.selected{border-color:#1a1a1a;background:#fafafa}
+  .opt.selected .radio{background:#1a1a1a;border-color:#1a1a1a}
+  .radio{width:18px;height:18px;border-radius:50%;border:2px solid #ccc;background:transparent;flex-shrink:0;transition:all .15s}
+  .optlabel{font-size:14px;color:#1a1a1a;line-height:1.4}
+  .nav{display:flex;justify-content:flex-end;margin-top:20px}
+  .btn{padding:12px 28px;border-radius:8px;border:1.5px solid #1a1a1a;background:#fff;color:#1a1a1a;font-size:14px;font-weight:600;cursor:pointer;transition:background .15s,color .15s}
+  .btn:hover{background:#1a1a1a;color:#fff}
+  .btn:disabled{opacity:.3;cursor:default}
+  .btn:disabled:hover{background:#fff;color:#1a1a1a}
+  .result{display:none}
+  .result.visible{display:block}
+  .result-badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#888;border:1px solid #e5e5e5;border-radius:6px;padding:4px 10px;margin-bottom:14px}
+  .result-title{font-size:20px;font-weight:700;color:#1a1a1a;margin:0 0 18px;line-height:1.3}
+  .card{background:#f9f9f9;border:1px solid #e5e5e5;border-radius:12px;padding:16px 18px;margin-bottom:12px}
+  .card-label{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#888;margin-bottom:8px}
+  .card-text{font-size:14px;color:#1a1a1a;line-height:1.7}
+  .divider{height:1px;background:#e5e5e5;margin:24px 0}
+  .video-label{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#888;margin-bottom:10px}
+  .video-intro{font-size:14px;color:#666;margin:0 0 14px;line-height:1.6}
+  .video-frame{position:relative;width:100%;padding-bottom:56.25%;border-radius:12px;overflow:hidden;border:1px solid #e5e5e5;background:#f5f5f5;margin-bottom:24px}
+  .video-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:none}
+  .vid-placeholder{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;cursor:pointer}
+  .play-icon{width:52px;height:52px;border-radius:50%;border:2px solid #ccc;display:flex;align-items:center;justify-content:center;transition:border-color .15s}
+  .vid-placeholder:hover .play-icon{border-color:#1a1a1a}
+  .play-tri{width:0;height:0;border-top:9px solid transparent;border-bottom:9px solid transparent;border-left:16px solid #888;margin-left:4px}
+  .vid-placeholder:hover .play-tri{border-left-color:#1a1a1a}
+  .vid-text{font-size:13px;color:#888;text-align:center;line-height:1.5}
+  .cta-box{border:1.5px solid #1a1a1a;border-radius:12px;padding:20px}
+  .cta-label{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#888;margin-bottom:8px}
+  .cta-text{font-size:14px;color:#1a1a1a;line-height:1.6;margin:0 0 16px}
+  .cta-btn{display:inline-block;padding:12px 24px;border-radius:8px;border:none;background:#1a1a1a;color:#fff;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;transition:opacity .15s}
+  .cta-btn:hover{opacity:.85}
+  .email-gate{display:none}
+  .email-gate.visible{display:block}
+  .email-gate-title{font-size:20px;font-weight:700;color:#1a1a1a;margin:0 0 8px;line-height:1.3}
+  .email-gate-sub{font-size:15px;color:#666;margin:0 0 24px;line-height:1.6}
+  .email-input{width:100%;padding:14px 16px;border:1.5px solid #e5e5e5;border-radius:12px;font-size:15px;color:#1a1a1a;background:#fff;outline:none;transition:border-color .15s;margin-bottom:12px;box-sizing:border-box}
+  .email-input:focus{border-color:#1a1a1a}
+  .email-submit{width:100%;padding:14px;border-radius:12px;border:none;background:#1a1a1a;color:#fff;font-size:15px;font-weight:700;cursor:pointer;transition:opacity .15s;letter-spacing:.02em}
+  .email-submit:hover{opacity:.85}
+  .email-error{color:#e53e3e;font-size:13px;margin-top:8px;display:none}
+  .privacy-note{font-size:12px;color:#aaa;text-align:center;margin-top:10px}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <div class="badge">Free Tool · Marthyn's Drum Camp</div>
+    <h1>The Double Bass Breakthrough Test</h1>
+    <p class="sub">4 questions. 60 seconds. Find out exactly what's holding you back.</p>
+  </div>
+
+  <div class="progress">
+    <div class="step active" id="p1"></div>
+    <div class="step" id="p2"></div>
+    <div class="step" id="p3"></div>
+    <div class="step" id="p4"></div>
+  </div>
+
+
+  <div class="email-gate" id="email-gate">
+    <p class="qlabel">Almost there</p>
+    <h2 class="email-gate-title">Your diagnosis is ready.</h2>
+    <p class="email-gate-sub">Enter your email and we'll show you exactly what's holding you back.</p>
+    <input class="email-input" type="email" id="email-input" placeholder="Enter your email address" />
+    <button class="email-submit" onclick="submitEmail()">Show me my diagnosis →</button>
+    <p class="email-error" id="email-error">Please enter a valid email address.</p>
+    <p class="privacy-note">No spam. Unsubscribe anytime.</p>
+  </div>
+
+  <div class="q visible" id="q1">
+    <p class="qlabel">Question 1 of 4</p>
+    <p class="qtext">Where are you right now with double bass?</p>
+    <div class="opts">
+      <div class="opt" data-val="beginner" onclick="sel(this,'q1')"><div class="radio"></div><span class="optlabel">Just starting out — below 100 BPM or no double bass experience</span></div>
+      <div class="opt" data-val="low" onclick="sel(this,'q1')"><div class="radio"></div><span class="optlabel">Stuck between 100–140 BPM and can't seem to break through</span></div>
+      <div class="opt" data-val="mid" onclick="sel(this,'q1')"><div class="radio"></div><span class="optlabel">Stuck between 140–170 BPM — I can get there but lose control</span></div>
+      <div class="opt" data-val="high" onclick="sel(this,'q1')"><div class="radio"></div><span class="optlabel">I can hit 170+ but can't sustain it or start/stop cleanly</span></div>
+    </div>
+    <div class="nav"><button class="btn" id="btn1" disabled onclick="next(1)">Next →</button></div>
+  </div>
+
+  <div class="q" id="q2">
+    <p class="qlabel">Question 2 of 4</p>
+    <p class="qtext">How long have you been stuck at your current limit?</p>
+    <div class="opts">
+      <div class="opt" data-val="months3" onclick="sel(this,'q2')"><div class="radio"></div><span class="optlabel">Less than 3 months — I'm fairly new to this</span></div>
+      <div class="opt" data-val="months6" onclick="sel(this,'q2')"><div class="radio"></div><span class="optlabel">3–6 months of consistent practice</span></div>
+      <div class="opt" data-val="year" onclick="sel(this,'q2')"><div class="radio"></div><span class="optlabel">6 months to 2 years — progress has basically stopped</span></div>
+      <div class="opt" data-val="years" onclick="sel(this,'q2')"><div class="radio"></div><span class="optlabel">More than 2 years — I've been at this wall for a long time</span></div>
+    </div>
+    <div class="nav"><button class="btn" id="btn2" disabled onclick="next(2)">Next →</button></div>
+  </div>
+
+  <div class="q" id="q3">
+    <p class="qlabel">Question 3 of 4</p>
+    <p class="qtext">What is your biggest problem when you hit your limit?</p>
+    <div class="opts">
+      <div class="opt" data-val="shin" onclick="sel(this,'q3')"><div class="radio"></div><span class="optlabel">Shin burn or pain in the front of my lower leg</span></div>
+      <div class="opt" data-val="fatigue" onclick="sel(this,'q3')"><div class="radio"></div><span class="optlabel">Fatigue and loss of power after just a few minutes</span></div>
+      <div class="opt" data-val="leftfoot" onclick="sel(this,'q3')"><div class="radio"></div><span class="optlabel">My left foot can't keep up with my right foot</span></div>
+      <div class="opt" data-val="twitching" onclick="sel(this,'q3')"><div class="radio"></div><span class="optlabel">Twitching or loss of control — feet feel nervous and unsteady</span></div>
+      <div class="opt" data-val="balance" onclick="sel(this,'q3')"><div class="radio"></div><span class="optlabel">Balance issues — I lean forward or feel unstable on the throne</span></div>
+    </div>
+    <div class="nav"><button class="btn" id="btn3" disabled onclick="next(3)">Next →</button></div>
+  </div>
+
+  <div class="q" id="q4">
+    <p class="qlabel">Question 4 of 4</p>
+    <p class="qtext">When you push past your limit, where do you feel it first?</p>
+    <div class="opts">
+      <div class="opt" data-val="shin_loc" onclick="sel(this,'q4')"><div class="radio"></div><span class="optlabel">Front of my shin</span></div>
+      <div class="opt" data-val="calf_loc" onclick="sel(this,'q4')"><div class="radio"></div><span class="optlabel">Back of my lower leg or calf</span></div>
+      <div class="opt" data-val="hip_loc" onclick="sel(this,'q4')"><div class="radio"></div><span class="optlabel">Hip or groin area</span></div>
+      <div class="opt" data-val="control_loc" onclick="sel(this,'q4')"><div class="radio"></div><span class="optlabel">I lose control before I feel any physical fatigue</span></div>
+    </div>
+    <div class="nav"><button class="btn" id="btn4" disabled onclick="showEmailGate()">Get my diagnosis →</button></div>
+  </div>
+
+  <div class="result" id="result"></div>
+</div>
+
+<script>
+var A={q1:null,q2:null,q3:null,q4:null};
+var D={
+  low:{
+    shin:{p:"At 100–140 BPM your hip flexor is the primary driver — and right now it doesn't have enough strength to move the pedal cleanly at that speed. So your shin steps in to compensate. That's where the burn is coming from. It's not a foot problem. It's a hip flexor strength problem.",t:"The good news — the hip flexor responds quickly to the right isolation work. Most drummers feel a real difference within two to three weeks."},
+    fatigue:{p:"At 100–140 BPM your hip flexor is doing all the work. And when it's undertrained, it burns out fast — usually within two to three minutes of continuous playing. That's not a stamina problem. That's a muscle strength problem. Your hip flexor simply doesn't have enough endurance yet to sustain that tempo.",t:"The good news — targeted hip flexor isolation work builds endurance faster than most drummers expect. Two to three weeks of the right exercises makes a noticeable difference."},
+    leftfoot:{p:"At 100–140 BPM this is almost always a hip flexor imbalance between your two legs. Your right hip flexor has years of practice behind it. Your left is significantly undertrained by comparison. So the moment you push toward your limit, the weaker side falls behind — and the gap between your feet gets wider the faster you go.",t:"The good news — hip flexor imbalances respond well to isolated left foot training. Most drummers start hearing a real difference within two to three weeks of focused work on the weaker side."},
+    twitching:{p:"At 100–140 BPM twitching almost always means one thing — your hip flexor is reaching its strength limit and starting to break down. When a muscle doesn't have enough strength to execute a movement cleanly at a given speed, it starts firing inconsistently. That nervous, unsteady feeling isn't a coordination problem. It's your hip flexor failing under load.",t:"The good news — once you isolate and strengthen the hip flexor correctly, the twitching disappears. Most drummers see a significant improvement within two to three weeks."},
+    balance:{p:"At 100–140 BPM balance problems almost always trace back to throne position and hip flexor weakness combined. When your hip flexor doesn't have enough strength to drive the pedal cleanly, your body compensates by leaning forward — trying to use your bodyweight to create the power your muscle can't generate on its own. It feels like a balance problem. But the root cause is underneath it.",t:"The good news — fixing your throne height and hip flexor strength solves this faster than most drummers expect. Two to three weeks of the right work and the compensation disappears."}
+  },
+  mid:{
+    shin:{p:"At 140–170 BPM your hip flexor is hitting its natural speed ceiling. At this tempo range the calf needs to start taking over — but if the ankle technique hasn't been developed yet, your shin steps in to fill the gap. That's where the burn is coming from. You're stuck in a transition zone between two techniques and your body is using the wrong muscle to bridge it.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."},
+    fatigue:{p:"At 140–170 BPM fatigue this quickly means your hip flexor is carrying a load it was never built to handle at this speed. The hip flexor is a powerful muscle but it's not designed for sustained fast movement past this tempo range. Your calf is — but it hasn't been trained to take over yet. So your hip flexor keeps working overtime until it burns out completely.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."},
+    leftfoot:{p:"At 140–170 BPM left foot lag almost always means you're sitting right at the boundary between two technique zones. Your dominant foot has naturally started developing calf-driven movement at this speed — even unconsciously. Your left foot is still relying entirely on the hip flexor. So the gap between your feet widens exactly at the moment the hip flexor starts running out of steam on your weaker side.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."},
+    twitching:{p:"At 140–170 BPM twitching is a very specific signal. Your hip flexor has reached its absolute speed limit and is starting to break down — but your calf hasn't been trained to take over yet. So your feet are caught between two techniques with no muscle group in control. That nervous, unsteady feeling is your body searching for a movement pattern that doesn't exist yet.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."},
+    balance:{p:"At 140–170 BPM balance problems point to one specific thing — your body is trying to use momentum and bodyweight to push through a tempo range that your muscles can't yet handle cleanly. The hip flexor is running out of power and the calf hasn't been developed yet to take over. So your upper body starts compensating by leaning forward, trying to generate force from above rather than from the correct muscle below.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."}
+  },
+  high:{
+    shin:{p:"At 170+ BPM shin burn means one thing — you're trying to force speed with the wrong muscle entirely. At this tempo range the calf reflex needs to be doing the work. But if the ankle technique hasn't been correctly isolated, the shin steps in and tries to generate the speed your calf isn't producing yet. The shin was never built for this. It burns out in seconds.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."},
+    fatigue:{p:"At 170+ BPM fatigue this quickly means your calf hasn't been trained to work as a reflex muscle yet. Instead your hip flexor is still trying to drive the pedal at a speed it was never designed for. The hip flexor is a powerful muscle but at this tempo range it burns out in minutes. Your calf is built for exactly this kind of fast sustained movement — but only if it's been correctly isolated and activated.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."},
+    leftfoot:{p:"At 170+ BPM left foot lag points to a calf activation imbalance between your two legs. Your dominant foot has likely developed some natural calf reflex movement at this speed through years of practice. Your left foot is still relying on hip flexor drive — a muscle that simply cannot operate cleanly at this tempo range. So the moment you push past 170 your left foot falls apart while your right keeps going.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."},
+    twitching:{p:"At 170+ BPM twitching is a very precise signal — your calf is trying to activate but hasn't been correctly isolated and trained yet. So instead of a clean controlled reflex motion, it fires inconsistently and erratically. That nervous unsteady feeling isn't a speed problem or a coordination problem. It's a muscle activation problem. Your calf knows it needs to work at this tempo — it just hasn't learned how to fire correctly yet.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."},
+    balance:{p:"At 170+ BPM balance problems almost always mean the same thing — your calf isn't doing its job yet. So your body cheats. It leans forward and uses your bodyweight to push the pedal instead. The faster you go, the more you lean. And the more you lean, the more unstable everything gets. It feels like a balance problem. But the real issue is underneath it.",t:"The good news — this is one of the most common plateaus for drummers, and also one of the fastest to break through once you start isolating the right muscle groups. Most drummers feel a shift within two to three weeks."}
+  },
+  beginner:{
+    shin:{p:"At this tempo range shin burn is almost always a sign that you're using too much force from the wrong muscle right from the start. Even at slow tempos, if the hip flexor movement hasn't been correctly isolated yet, the shin steps in immediately. This is actually the best time to catch and fix this — before the wrong muscle memory gets locked in.",t:"The good news — this is one of the most common problems for drummers starting out, and also one of the fastest to fix once you start training the right muscle from the beginning. Most drummers feel a real difference within two to three weeks."},
+    fatigue:{p:"At slow tempos fatigue this quickly is a clear sign that you're using your full leg to drive the pedal instead of isolating the correct muscle group. When the whole leg works as one unit it burns out fast — even at low speeds. You haven't built any wrong muscle memory yet which means you're starting with a clean slate.",t:"The good news — this is one of the most common problems for drummers starting out, and also one of the fastest to fix once you start training the right muscle from the beginning. Most drummers feel a real difference within two to three weeks."},
+    leftfoot:{p:"At slow tempos a weak left foot simply means your left foot has never been properly trained. Your right foot has years of natural movement behind it. Your left is starting from zero. So even at slow tempos the gap feels huge. The good news is there are no bad habits to unlearn yet — just a clean slate to build on correctly from the start.",t:"The good news — this is one of the most common problems for drummers starting out, and also one of the fastest to fix once you start training the right muscle from the beginning. Most drummers feel a real difference within two to three weeks."},
+    twitching:{p:"At slow tempos twitching is almost always a tension problem. When double bass feels unfamiliar your body tenses up — and tension kills control instantly. The foot doesn't twitch because it's too slow or too weak. It twitches because the muscles are fighting each other instead of working together. This is completely normal at the beginning and disappears quickly once the correct movement pattern gets established.",t:"The good news — this is one of the most common problems for drummers starting out, and also one of the fastest to fix once you start training the right muscle from the beginning. Most drummers feel a real difference within two to three weeks."},
+    balance:{p:"At slow tempos balance problems almost always come down to throne setup. When your throne is too low your hips drop below your knees — and from that position your legs simply can't move freely. Your body compensates by leaning forward to try to create space and movement. It feels like a balance problem but it's actually a setup problem. The position you're sitting in is working against you before you even play a single note.",t:"The good news — this is one of the most common problems for drummers starting out, and also one of the fastest to fix once you start training the right muscle from the beginning."}
+  }
+};
+
+var BL={beginner:'below 100 BPM',low:'100–140 BPM',mid:'140–170 BPM',high:'170+ BPM'};
+
+function sel(el,qid){
+  el.parentElement.querySelectorAll('.opt').forEach(function(o){o.classList.remove('selected')});
+  el.classList.add('selected');
+  A[qid]=el.getAttribute('data-val');
+  document.getElementById('btn'+qid.replace('q','')).disabled=false;
+}
+
+function next(n){
+  document.getElementById('q'+n).classList.remove('visible');
+  document.getElementById('p'+n).classList.remove('active');
+  document.getElementById('p'+n).classList.add('done');
+  document.getElementById('q'+(n+1)).classList.add('visible');
+  document.getElementById('p'+(n+1)).classList.add('active');
+}
+
+function showResult(){
+  document.getElementById('q4').classList.remove('visible');
+  ['p1','p2','p3','p4'].forEach(function(id){
+    document.getElementById(id).classList.remove('active');
+    document.getElementById(id).classList.add('done');
+  });
+  var d=D[A.q1][A.q3];
+  var label=BL[A.q1];
+  var h='';
+  h+='<div class="result-badge">Your diagnosis</div>';
+  h+='<h2 class="result-title">Here\'s what\'s actually holding you back at '+label+'</h2>';
+  h+='<div class="card"><p class="card-label">What\'s happening</p><p class="card-text">'+d.p+'</p></div>';
+  h+='<div class="card"><p class="card-label">The good news</p><p class="card-text">'+d.t+'</p></div>';
+  h+='<div class="card"><p class="card-label">Your next step</p><p class="card-text">The fix is simpler than you think — watch this short video below.</p></div>';
+  h+='<div class="divider"></div>';
+
+  h+='<div style="position:relative;padding-bottom:56.25%;height:0;margin-bottom:24px;border-radius:12px;overflow:hidden"><iframe src="https://www.loom.com/embed/08970d43a2104a12b0aa4905d7baec36" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>';
+  h+='<div class="divider"></div>';
+  h+='<div class="cta-box">';
+  h+='<p class="cta-label">Start your 7-day free trial</p>';
+  h+='<a class="cta-btn" href="https://www.skool.com/marthyn/about" onclick="fbq(\'trackCustom\', \'EngagedLead\');"><strong>TEST IT FOR FREE</strong> →</a>';
+  h+='</div>';
+  var r=document.getElementById('result');
+  r.innerHTML=h;
+  r.classList.add('visible');
+}
+
+
+function showEmailGate(){
+  document.getElementById('q4').classList.remove('visible');
+  document.getElementById('p4').classList.remove('active');
+  document.getElementById('p4').classList.add('done');
+  document.getElementById('email-gate').classList.add('visible');
+  window.scrollTo(0,0);
+}
+
+function submitEmail(){
+  var email = document.getElementById('email-input').value;
+  var errorEl = document.getElementById('email-error');
+  var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if(!re.test(email)){
+    errorEl.style.display='block';
+    return;
+  }
+  errorEl.style.display='none';
+
+  // Fire Facebook Lead pixel event
+  if(typeof fbq !== 'undefined'){
+    fbq('track', 'Lead');
+  }
+
+  // Submit to ConvertKit
+  var formData = new FormData();
+  formData.append('email_address', email);
+  fetch('https://app.kit.com/forms/9414084/subscriptions', {
+    method: 'POST',
+    body: formData,
+    mode: 'no-cors'
+  }).catch(function(){});
+
+  // Hide email gate and show result
+  document.getElementById('email-gate').classList.remove('visible');
+  showResult();
+}
+
+function loadVid(){
+  document.getElementById('vp').style.display='none';
+  var f=document.getElementById('loom');
+  f.src='https://www.loom.com/embed/08970d43a2104a12b0aa4905d7baec36';
+  f.style.display='block';
+}
+</script>
+</body>
+</html>
